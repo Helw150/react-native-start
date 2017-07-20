@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import Immutable from 'immutable'
 
 import { increment, decrement } from '/src/features/counter/counter-action-creators';
 
@@ -8,10 +9,10 @@ import Counter from '/src/features/counter/components/Counter';
 
 export class CounterApp extends Component {
   render() {
-    const { state, actions } = this.props;
+    state = this.props.state.toJS()
 
     return (
-      <Counter counter={state.count} {...actions} />
+      <Counter counter={state.count} {...this.props.actions} />
     );
   }
 }

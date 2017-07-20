@@ -7,13 +7,13 @@ const initialState = Immutable.fromJS({count: 0})
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case actionTypes.INCREMENT:
-    return state.set('count', state.count + 1);
+  case actionTypes.INCREMENT:
+    return state.set('count', state.toJS().count + 1);
 
-    case actionTypes.DECREMENT:
-    return state.set('count', state.count - 1);
+  case actionTypes.DECREMENT:
+    return state.set('count', state.toJS().count - 1);
 
-    default:
-      return state;
+  default:
+    return state;
   }
 }
