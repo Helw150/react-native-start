@@ -1,6 +1,6 @@
 import { StackNavigator } from 'react-navigation';
 
-import HomeScreenContainer from 'src/containers/HomeScreenContainer';
+import HomeScreenContainer from 'src/HomeScreenContainer';
 
 export default StackNavigator(
   {
