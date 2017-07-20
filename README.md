@@ -1,4 +1,6 @@
-# create-react-redux-native-app
+# create-react-native-app with Absolute Imports, Immutable, and Fractal Structure
+
+This package is meant as a personal starting point for my React Native projects. The goal is to make developing in React Native as similar as my web stack as possible. It is made to look like [my web starter](https://github.com/Helw150/React-Redux-Starter), but I have chosen to drop reselect for mobile. Otherwise the stack is the same, starting from Create-React-Native-App adding Redux, Immutable, and absolute path importing.
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
