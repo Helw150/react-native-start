@@ -15,6 +15,7 @@
     "preset": "jest-expo"
   },
   "devDependencies": {
+    "babel-root-slash-import": "^1.1.0",
     "jest-expo": "^0.2.1",
     "react-native-scripts": "0.0.20",
     "react-test-renderer": "~15.4.0",

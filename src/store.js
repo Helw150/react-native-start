@@ -2,8 +2,8 @@ import { createStore, applyMiddleware, combineReducers } from 'redux';
 import createLogger from 'redux-logger';
 import thunk from 'redux-thunk';
 
-import counter from 'src/reducers/counter';
-import navigation from 'src/reducers/navigation';
+import counter from '/src/features/counter/counter-reducer';
+import navigation from '/src/navigation/navigation-reducer';
 
 const identity = x => x;
 

@@ -17,10 +17,10 @@ export default ({ counter, increment, decrement }) => (
   <View style={{ alignItems: 'center', padding: 5 }}>
     <Text>{counter}</Text>
     <TouchableOpacity onPress={increment} style={styles.button}>
-      <Text>INCREMENT</Text>
+      <Text>Incrementing</Text>
     </TouchableOpacity>
     <TouchableOpacity onPress={decrement} style={styles.button}>
-      <Text>DECREMENT</Text>
+      <Text>Decrementing</Text>
     </TouchableOpacity>
   </View>
 );

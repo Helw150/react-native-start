@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import { increment, decrement } from 'src/features/counter/counter-action-creators';
+import { increment, decrement } from '/src/features/counter/counter-action-creators';
 
-import Counter from 'src/features/counter/components/Counter';
+import Counter from '/src/features/counter/components/Counter';
 
 export class CounterApp extends Component {
   render() {

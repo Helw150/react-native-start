@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { addNavigationHelpers } from 'react-navigation';
 import { connect } from 'react-redux';
 
-import NavigationContainer from 'src/navigation/NavigationContainer';
+import NavigationContainer from '/src/navigation/NavigationContainer';
 
 export class AppWithNavigationState extends Component {
   render() {

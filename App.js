@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 
 import createStore from './src/store';
 
-import AppWithNavigationState from './src/AppWithNavigationState';
+import AppWithNavigationState from './src/navigation/AppWithNavigationState';
 
 export default () => (
   <Provider store={createStore()}>
