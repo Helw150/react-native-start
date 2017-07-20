@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-import CounterContainer from './CounterContainer';
+import CounterContainer from 'src/containers/CounterContainer';
 
 const styles = StyleSheet.create({
   container: {
